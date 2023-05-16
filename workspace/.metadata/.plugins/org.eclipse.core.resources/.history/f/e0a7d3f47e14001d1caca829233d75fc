@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// 애니멀(Dog, Cat, Pig) 객체 만들어내는 능력을 가진
+		// 애니멀공장 객체 생성.
+		
+		
+	}
+
+}

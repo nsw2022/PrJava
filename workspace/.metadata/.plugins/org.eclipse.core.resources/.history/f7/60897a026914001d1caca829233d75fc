@@ -1,0 +1,21 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//다형성이 사용되는 예 - 여러 타입의 객체를 한번에 제어하고 싶을때
+		// 예) 앱에 동물캐릭터 3종류(Dog, Cat, Pig)
+		
+		Dog d=new Dog();
+		Cat c=new Cat();
+		Pig p=new Pig();
+		
+		d.say();
+		c.say();
+		p.say();
+		
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+
+//final class First는 상속 불가능 - error
+//public class Second extends First{
+//
+//}
+
+public class Second{
+
+}

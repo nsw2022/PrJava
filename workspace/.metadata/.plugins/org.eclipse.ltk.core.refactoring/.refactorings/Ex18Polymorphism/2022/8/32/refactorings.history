@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Seconds&apos; to &apos;Second&apos;&#x0D;&#x0A;- Original project: &apos;Ex18Polymorphism&apos;&#x0D;&#x0A;- Original element: &apos;Seconds&apos;&#x0D;&#x0A;- Renamed element: &apos;Second&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Seconds&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Seconds.java[Seconds" matchStrategy="1" name="Second" qualified="false" references="true" similarDeclarations="false" stamp="1659660541531" textual="false" version="1.0"/>
+</session>

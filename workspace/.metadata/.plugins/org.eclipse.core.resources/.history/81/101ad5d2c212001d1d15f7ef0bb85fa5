@@ -1,0 +1,20 @@
+
+public class Main {
+	
+	public static void main(String[] args) {
+	
+		//메소드를 왜 사용하는지에 대해 이미 알아보았음.
+		//클래스의 메소드 사용시 4가지 문법적 모습(리턴 ox, 파라미터 ox)
+		Test test=new Test();
+		
+		//1)
+		test.aaa();//기능 사용 - 메소드 호출
+		
+		//2
+		test.bbb(50);
+	
+		//3
+		test.ccc();
+	}
+	
+}

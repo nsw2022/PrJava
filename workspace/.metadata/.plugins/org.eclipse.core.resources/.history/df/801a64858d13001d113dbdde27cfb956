@@ -1,0 +1,22 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//일반적인 클래스
+		
+		Test t=new Test();//일반 클래스는 그냥 인식됨
+		
+		//이너 클래스는 아웃테밖에서는 인식안됨
+		//Nice n;//error
+		
+		//인식되려면 아웃클래스명. 으로 인식가능함
+		//Test.Nice n=new Test.Nice();//error
+		
+		//외부에서 Inner class 객체의 기능을 사용하고 싶다면..
+		//이너클래스 참조변수를 만들고 이 참조변수에 이너클래스 객체를 참조시키면됨
+		Test.Nice n;
+		
+	}
+	
+}

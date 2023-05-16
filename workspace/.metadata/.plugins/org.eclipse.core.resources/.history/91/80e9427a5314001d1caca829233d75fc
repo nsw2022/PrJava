@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// 지역변수에 final을 붙이면 상수화된 변수
+		final int a=10;
+		//a=20;//error : a의 값 변경 불가!
+				
+		// 자바의 특이한 점.
+		final int b;
+		System.out.println(b);
+		
+	}
+
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.io.InterruptedIOException"/>
+    <fullyQualifiedTypeName name="bbb.Studnet"/>
+    <fullyQualifiedTypeName name="aaa.Student"/>
+    <fullyQualifiedTypeName name="aaa.Studnet"/>
+    <fullyQualifiedTypeName name="bbb.Person"/>
+    <fullyQualifiedTypeName name="aaa.Nice"/>
+    <fullyQualifiedTypeName name="mrhi.dev.World"/>
+    <fullyQualifiedTypeName name="aaa.Second"/>
+    <fullyQualifiedTypeName name="aaa.Test"/>
+    <fullyQualifiedTypeName name="Nice"/>
+    <fullyQualifiedTypeName name="Test.Nice"/>
+    <fullyQualifiedTypeName name="Test"/>
+    <fullyQualifiedTypeName name="First.Hello"/>
+    <fullyQualifiedTypeName name="Person"/>
+    <fullyQualifiedTypeName name="Professor"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="Student"/>
+    <fullyQualifiedTypeName name="AlbaStudent"/>
+    <fullyQualifiedTypeName name="Second"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+</qualifiedTypeNameHistroy>

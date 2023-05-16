@@ -1,0 +1,11 @@
+
+public class Second {
+
+	int b;
+	
+	void showSecond() {
+		// TODO Auto-generated method stub
+		System.out.println("show Second!");
+	}
+	
+}

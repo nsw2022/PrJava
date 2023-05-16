@@ -1,0 +1,20 @@
+
+public class Second extends First {
+	
+	private int b;
+	
+	public void show() {
+		//System.out.println("a: " + a);//error 접근제한자 private은 상속받은 클래스도 사용못함
+		showFirst();
+		System.out.println("b: " + b);
+		System.out.println();
+	
+	}
+	
+	//생성자 - 객체생성할때 자동으로 실행되는 특별한 메소드
+	public Second() {
+		System.out.println("Second객체 생성");
+	}
+	
+	
+}

@@ -1,0 +1,33 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//Person	  : 이름 나이 
+		//Student 	  : 이름 나이 전공
+		//Professor   : 이름 나이 과제 
+		//AlbaStudent : 이름 나이 전공 업무
+		
+		
+		
+		//1번
+		Person p=new Person("승우",25);
+		p.show();
+		System.out.println();
+		
+		//2번
+		Student stu=new Student("승우",25,"보건의료행정");
+		stu.show();
+		System.out.println();
+		
+		//3번
+		Professor pro=new Professor("심길호",50,"캡스톤");
+		pro.show();
+		
+		//4번
+		AlbaStudent alba=new AlbaStudent();
+		alba.show();
+
+	}
+
+}

@@ -1,0 +1,21 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		// 상속 - 다른 클래스의 멤버들을 물려받는 문법
+		
+		Second s=new Second();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

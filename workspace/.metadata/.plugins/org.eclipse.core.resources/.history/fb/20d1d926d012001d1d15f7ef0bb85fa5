@@ -1,0 +1,12 @@
+
+public class Main {
+public static void main(String[] args) {
+	
+	//객체 생성 후 언제나 멤버값을 설정하는 작업이 실행되는 것이 일반적임
+	Person p=new Person();//객체의 멤버는 기본값으로 초기화
+	p.setMembers("sam", 20);
+	p.show();
+	
+	
+}
+}

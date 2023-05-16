@@ -1,0 +1,8 @@
+
+public class Pig {
+	
+	void say() {
+		System.out.println("꿀꿀@");
+	}
+
+}

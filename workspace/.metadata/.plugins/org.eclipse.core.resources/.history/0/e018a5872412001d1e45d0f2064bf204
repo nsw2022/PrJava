@@ -1,0 +1,29 @@
+
+public class Student {
+	
+	//연관있는 데이터들을 저장할 변수를 정의
+	//Field(필드: 멤버변수)
+	String name;
+	int kor;
+	int eng;
+	double aver;
+	
+	//기능을 설계할 수 있음.
+	// 예) 화면에 aaa라는 글씨를 출력하는 기능(Function -> Method)
+	// Method를 만드는 문법은 c언어와 동일
+	void show() {
+		// aaa라는 글씨를 출력시키는 실행문(코드)
+		System.out.println("aaa");
+	}
+	//main 함수에서 위에서 만든 기능(함수,메소드)를 사용(호출)해야만 코드가 실행됨
+	
+	//멤버변수(필드)들을 출력하는 기능!(Method)
+	void output() {
+		System.out.println("이름 : " + name);
+		System.out.println("국어 : " + kor);
+		System.out.println("영어 : " + eng);
+		System.out.println("평균 : " + aver);
+		System.out.println();
+	}
+
+}

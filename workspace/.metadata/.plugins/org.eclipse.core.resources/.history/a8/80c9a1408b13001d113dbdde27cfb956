@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//일반적인 클래스
+		
+		Test t=new Test();//일반 클래스는 그냥 인식됨
+		
+		//이너 클래스
+		
+		
+	}
+	
+}

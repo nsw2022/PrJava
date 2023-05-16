@@ -1,0 +1,23 @@
+
+public class Student extends Person{
+	
+	private String task="";
+	
+	@Override
+	public void show() {
+		// TODO Auto-generated method stub
+		super.show();
+		System.out.println("task: " + task);
+	}
+	public Student(){
+		super();
+		this.task="";
+	}
+	
+	public Student(String name, int age, String major){
+		super(name, age);
+		this.task=task;
+		
+	}
+
+}

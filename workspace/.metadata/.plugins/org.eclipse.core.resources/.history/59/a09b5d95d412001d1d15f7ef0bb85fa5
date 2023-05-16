@@ -1,0 +1,16 @@
+
+public class Second {
+	
+	//멤버변수
+	int a;
+	int b;
+	
+	//멤버변수를 초기화하는 특별한 메소드 - 생성자메소드
+	Second(int a, int b){
+		this.a=a;
+		this.b=b;
+		System.out.println("Second int,int");
+	}
+	
+	
+}

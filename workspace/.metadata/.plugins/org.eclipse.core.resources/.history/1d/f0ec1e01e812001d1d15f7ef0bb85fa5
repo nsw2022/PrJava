@@ -1,0 +1,11 @@
+package aaa;
+
+public class Second {
+	
+	private int a;
+	int b;
+	protected int c;
+	public int d;
+	
+	
+}

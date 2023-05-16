@@ -1,0 +1,14 @@
+
+public class AlbaStudent extends Student{
+	
+	private String task="";
+	
+	public AlbaStudent() {
+		
+	}
+	
+	public AlbaStudent(Sting name, int age, Sting major, String task) {
+		
+	}
+
+}

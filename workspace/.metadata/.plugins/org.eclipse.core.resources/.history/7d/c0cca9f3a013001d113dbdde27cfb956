@@ -1,0 +1,27 @@
+
+public class Second extends First {
+	
+	private int b;
+	
+	public void show() {
+		//System.out.println("a: " + a);//error 접근제한자 private은 상속받은 클래스도 사용못함
+		showFirst();
+		System.out.println("b: " + b);
+		System.out.println();
+	
+	}
+	
+	//생성자 - 객체생성할때 자동으로 실행되는 특별한 메소드
+	public Second() {
+		System.out.println("Second객체 생성");
+	}
+	
+	//생성자 Overloading
+	public Second(int a, int b) {
+		//this.a=a;//부모 private멤버는 접근불가
+		//무조건 부모객체도 생성됨. 즉 이때.. 부모생성자도 같이 호출됨
+		
+		this.b=b;
+	}
+	
+}

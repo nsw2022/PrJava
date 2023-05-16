@@ -1,0 +1,27 @@
+
+public class Main {
+public static void main(String[] args) {
+	//OOP(객체지향)에서는 객체의 멤버들이 외부로부터 보호되어 관리되는 것이 중요한 개념임
+	//정보은닉, 캡슐화의 개념. 이를 위한 문법 - 접근제한자
+	
+	//Access Modifier의 종류 4가지 ( 보안 강->약 )
+	//1. private	: 본인 class 내부에서만 접근 가능
+	//2. [default]  : 같은 package에서는 .연산자로 접근 가능, 다른 package에서는 .연산자로 접근 불가
+	//3. protected  : 같은 package에서는 .연산자로 접근 가능, 다른 package에서는 .연산자로 접근 불가, 단, 다른package여도 상속관계면 접근 가능
+	//4. public     : 어느 곳에서든 .연산자로 멤버접근 가능
+	
+	// 이 Main .java와 같은 package안에 있는 class의 객체 생성
+	
+	First f=new First();
+	
+	//f.a=10;//error : private멤버는 외부에서 .으로 접근 불가!
+	
+	//같은 패키지라면 나머지 접근제한자로 부여된 멤버는 .으로 접근 가능!!
+	f.b=20;
+	f.c=30;
+	f.d=40;
+	
+	f.aaa(); //객체의 멤버메소드 안에서는 모든 멤버에 접근 가능
+	
+}
+}

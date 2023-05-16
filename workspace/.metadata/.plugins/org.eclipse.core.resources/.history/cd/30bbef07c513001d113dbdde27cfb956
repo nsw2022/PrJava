@@ -1,0 +1,23 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//Person	  : 이름 나이 
+		//Student 	  : 이름 나이 전공
+		//Professor   : 이름 나이 과제 
+		//AlbaStudent : 이름 나이 전공 업무
+		
+		
+		
+		
+		Person p=new Person("승우",25);
+		p.show();
+		
+		
+		
+		
+
+	}
+
+}

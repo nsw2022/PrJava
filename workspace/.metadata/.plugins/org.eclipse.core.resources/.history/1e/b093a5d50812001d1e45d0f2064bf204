@@ -1,0 +1,28 @@
+
+public class Main {
+public static void main(String[] args) {
+	
+	//class를 정의 할때 같은 이름을 가진 class가 있으면 에러
+	//그래서 같은 이름을 가진 class를 만들때 폴더를 구분시키는 문법
+	//이를 package 라고 부름
+	
+	//일단 package없이 그냥 class 사용하는 모습
+	
+	Test t = new Test();
+	t.a=10;   //멤버변수 사용
+	t.show(); //멤버함수 사용
+	
+	//같은 이름이 사용될 가능성이 있는 class 2개 만들기
+	//1) [이름,국어,영어] 값을 저장하는 class - Student
+	aaa.Student stu = new aaa.Student();
+	stu.name="sam";
+	
+	
+	//2) [이름,나이,전공] 값을 저장하는 class - Student
+	bbb.Studnet stu2 = new bbb.Studnet();
+	
+	
+	
+	
+	}
+}

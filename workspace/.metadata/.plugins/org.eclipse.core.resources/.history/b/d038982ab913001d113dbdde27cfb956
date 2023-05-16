@@ -1,0 +1,21 @@
+
+public class Student extends Person{
+	//이미 name,age를 보유한 상태
+	
+	private String major;//전공
+	
+	//생성자
+	public Student() {
+		super();
+		major="";
+		
+	}
+	
+	//파라미터 받는 생성자 오버로딩
+	public Student(String name, int age, String major) {
+		super(name, age);
+		this.major=major;
+		
+	}
+	
+}

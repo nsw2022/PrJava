@@ -1,0 +1,33 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// 애니멀(Dog, Cat, Pig) 객체 만들어내는 능력을 가진
+		// 애니멀공장 객체 생성.
+		AnimalFactory af=new AnimalFactory();
+		
+		Dog d=(Dog)af.makeAnimal(1);//리턴된 객체가 Animal인줄 알아서 오류남 - Animal이 아니라 Dog라고 명시해주면..됨 down casting..
+		d.say();
+		
+		Cat c=(Cat)af.makeAnimal(2);
+		c.say();
+		
+		Pig p=(Pig)af.makeAnimal(3);
+		p.say();
+		System.out.println();
+		
+		//Animal참조변수 1개로 여러객체 제어하는 것도 가능
+		Animal ani=null;
+		
+		ani=af.makeAnimal(1); //Dog객체 리턴됨
+		ani.say();
+		
+		ani=af.makeAnimal(2);
+		ani.say();
+		
+		
+	}
+
+}

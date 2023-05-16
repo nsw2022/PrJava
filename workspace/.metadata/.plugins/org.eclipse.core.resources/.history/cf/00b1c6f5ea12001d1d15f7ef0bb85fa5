@@ -1,0 +1,11 @@
+package aaa;
+
+public class Test {
+	
+	//생성자 - default 생성자메소드 [같은 패키지에서만 호출 가능함]
+	Test(){
+		System.out.println("Test 객체 생성");
+	}
+	
+	
+}

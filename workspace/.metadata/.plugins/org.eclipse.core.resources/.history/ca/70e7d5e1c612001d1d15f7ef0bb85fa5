@@ -1,0 +1,47 @@
+
+public class Main {
+	
+	public static void main(String[] args) {
+	
+		//메소드를 왜 사용하는지에 대해 이미 알아보았음.
+		//클래스의 메소드 사용시 4가지 문법적 모습(리턴 ox, 파라미터 ox)
+		Test test=new Test();
+		
+		//1)
+		test.aaa();//기능 사용 - 메소드 호출
+		
+		//2
+		test.bbb(50);
+	
+		//3
+		int k = test.ccc();
+		System.out.println("k: "+k);
+		
+		//4
+		double m =test.ddd(3.14, 2.45);
+		System.out.println("m: "+m);
+		/////////////////////////////////////////
+		
+		System.out.println();
+		
+		//기능(메소드)만 있는 클래스도 존재할 수 있음.
+		
+		int a=10;
+		int b=4;
+		
+		//4칙연산을 해주는 계산기 객체 생성하여 사용해보기(메소드만 있는 클래스)
+		Caculator cal=new Caculator();
+		
+		
+		int sum=cal.add(a, b);
+		System.out.println("sum: "+sum);
+		
+		int sub;
+		int mul;
+		int div;
+		
+		
+		
+	}
+	
+}

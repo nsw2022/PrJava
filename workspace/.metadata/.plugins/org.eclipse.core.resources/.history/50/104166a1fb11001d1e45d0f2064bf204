@@ -1,0 +1,22 @@
+
+public class Second {
+	//클래스는 변수와 함수를 가지고 있는 녀석
+	
+	//멤버변수 : 데이터를 저장
+	int a;
+	
+	//멤버함수 : 기능, 동작을 구현
+	void show() {
+		System.out.println("Second show!");
+	}
+	
+}//Second class
+
+//하나의 .java문서 안에 또다른 class가 설계(작성)될 수 있음.
+
+class Thifd{
+	int a;//멤버변수 - Field
+	void show(){//멤버함수 - Method
+		
+	}
+}

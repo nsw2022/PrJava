@@ -1,0 +1,8 @@
+
+public class Test {
+
+	public int a;			//멤버변수
+	public static int b;    //static 멤버변수
+	
+	
+}

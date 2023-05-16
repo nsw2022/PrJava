@@ -1,0 +1,13 @@
+
+public class Test {
+
+	public int a;			//멤버변수				-- 객체(인스턴스)마다 존재하는 변수  -- 인스턴스 변수라고도 부름
+	public static int b;    //static 멤버변수		-- 쿨래스에 1개 존재하는 변수 -- 클래스변수라고도 부름
+	public static int count=0;
+	//생성자
+	public Test() {
+		count++;
+		System.out.println("Test 객체 생성 : #" + count);
+	}
+	
+}

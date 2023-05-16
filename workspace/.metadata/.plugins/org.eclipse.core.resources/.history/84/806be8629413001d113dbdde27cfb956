@@ -1,0 +1,43 @@
+
+public class LocalClassTest {
+
+	int g=10;// 멤버변수
+	
+	//멤버메소드
+	void aaa() {
+		
+		int a=50;//지역 변수 - 다른지역에서는 인식 불가
+		g=100;
+		
+		//설계하기 전에 사용하면 에러
+		//Sample ss;//error
+		
+		//지역클래스 - Local class//////////////////이 지역안에서만 인식가능
+		class Sample{
+			void show()
+			{
+				System.out.println("Sample.. show");
+				
+				//멤버변수는 지역클래스안에서도 어디서든 사용가능
+				g=500;
+				//단 지역변수는 사용이제한됨
+				//a=20;//error
+				
+				//단, 지역변수이더라도 fianl 키워드가 있다면 사용가능함.
+			}
+		}////////////////////////////////
+		
+		Sample s= new Sample();
+		s.show();
+		
+		
+	}
+	
+	//다른 멤버메소드
+	void bbb() {
+		g=200;
+		//a=300;//error
+	}
+	
+	//Sample s;//error
+}

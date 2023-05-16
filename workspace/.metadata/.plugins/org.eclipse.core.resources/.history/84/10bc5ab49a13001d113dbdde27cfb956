@@ -1,0 +1,38 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		// 상속 - 다른 클래스의 멤버들을 물려받는 문법
+		// 상속은 닫눗ㄴ히 메버드만 쪽~~뽑아가는것이 아님
+		//삭속을 실제로도 객체안에 객체가 존재하는 구조. 그림으로 반드시 이해
+		//
+		Second s=new Second();
+		s.a=10;
+		s.b=20;
+		
+		System.out.println("a:   " + s.a);
+		System.out.println("b : "+s.b);
+		System.out.println();
+		
+		//객체지향은 멤버변수를 직접 제어하는 것을 권장하지 않음.
+		//객체들을 본인의멤버값을 출력해주는 기능이 있는게 좋다.
+		//그래서 각 클래스에 본인값을 출력해주는 기능을 구현..해보기
+		s.showFirst();//상속받은 클래스의 멤버를 내것인양.
+		s.showSecond();
+		System.out.println();
+		
+		//Second는 First의 멤버값도 어차피 출력해야 의미가 있으니까.
+		//First의 멤버값도 같이 한방에 출력해주는 기능이 있다면 더 간결.
+		s.show();
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

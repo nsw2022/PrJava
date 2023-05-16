@@ -1,0 +1,21 @@
+
+public class Caculator {
+
+	//기능들 - 메소드들..
+	
+	//더하기 기능
+	int add(int x, int y) {
+		int sum=x+y;
+		return sum;
+	}
+	
+	//빼기 기능
+	
+	
+	//곱셈 기능
+	
+	//나눗셈 기능
+	
+	
+	
+}

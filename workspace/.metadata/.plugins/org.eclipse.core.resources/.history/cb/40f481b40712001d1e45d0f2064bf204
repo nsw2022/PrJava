@@ -1,0 +1,8 @@
+package bbb;
+
+public class Studnet {
+	//이름,나이,전공
+	public String name;
+	public int age;
+	public String major;
+}

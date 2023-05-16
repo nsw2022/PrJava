@@ -1,0 +1,22 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//static int k; //지역변수 0error : static 지역변수에 적용불가
+		
+		Test t1=new Test();
+		Test t2=new Test();
+		Test t3=new Test();
+		
+		t1.a=100;
+		System.out.println(t1.a);
+		System.out.println(t2.a);
+		System.out.println(t3.a);
+		
+		t1.b=200;
+		System.out.println(t1.b);
+		System.out.println(t2.b);
+		System.out.println(t3.b);
+	}
+}

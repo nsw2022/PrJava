@@ -1,0 +1,37 @@
+import java.util.Random;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		//객체지향프로그래밍:OOP - 객체 위주로 프로그래밍을 한다.
+		
+		//고유한 기능을 가진 class(객체의 종류)를 이미 2,000여개 정도 설계해 놓았음
+		//java System API라고 부름.
+		
+		//class는 설계도면이기에 사용하려면.. 객체로 만들어서 사용해야만 함.
+		//Random클래 사용 -> Random객체 생성
+		Random rnd=new Random();
+		int n = rnd.nextInt();//고유기능 사용(함수 호출 - 메소드 호출)
+		
+		// 아무리 Java에 2000여개 정도의 고유기능을 가진 class(설계도면)이 있더라도
+		// 내가 원하는 기능이 반드시 있다고 확신할 수 없음.
+		
+		// 그래서 개발자가 직접 고유기능을 설계하는 class를 작성하여 객체를 만들어
+		// 프로그래밍을 하는 경우가 아주 많음.
+		
+		// 이를 '사용자 정의 class'라고 부름
+		
+		// 사용자 정의 class를 만들기..
+		// 만드는(작성하는) 위치는 4군데 가능함.
+		// 1) 별도의 .java문서에 새로운 class를 설계
+		// 2) 하나의 .java문서안에 여러개의 class를 설계
+		// 3) class안에 class를 설계
+		// 4) 메소드(함수)안에 class를 설계
+		
+		// 클래스를 만들었다고 해서 사용했다는 것은 아님. 단지 설계만 함
+		// 객체로 만들어서 기능을 사용해야 함.
+		Second s=new Second();
+		System.out.println(s);
+	}
+}

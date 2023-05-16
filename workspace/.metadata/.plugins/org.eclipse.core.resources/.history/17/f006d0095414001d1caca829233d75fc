@@ -1,0 +1,11 @@
+
+public class Test {
+	
+	final int num=20; //final 멤버변수
+	
+	void aaa() {
+		//num=30;//error : final 멤버변수 값 변경 불가!
+	}
+	
+	
+}

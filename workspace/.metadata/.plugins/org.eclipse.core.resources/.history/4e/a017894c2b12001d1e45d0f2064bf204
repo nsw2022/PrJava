@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class Araaytext {
+public static void main(String[] args) {
+	Scanner scan=new Scanner(System.in);
+	
+	
+	int sum=0;
+	int max=0;
+	int min=0;
+	
+	int arr[]=new int[5];
+	System.out.println("정수를 입력해 주세요 : ");
+	
+	for(int i=0;i<5;i++) {
+
+	System.out.print("input : ");
+	arr[i]=scan.nextInt();
+	sum=sum+arr[i];
+	}
+	
+	max=arr[0];
+	for(int i=0;i<5;i++) {
+		if(arr[i]>max) {
+			max=arr[i];
+		}
+	}
+	min=arr[0];
+	for(int i=0;i<5;i++) {
+		if(arr[i]<min) {
+			min=arr[i];
+		}
+	}
+	
+	
+	
+	System.out.println("최댓값 :"+max);
+	System.out.println("최솟값 :"+min);
+	System.out.println("총합 :" +sum);
+	
+	
+}
+}

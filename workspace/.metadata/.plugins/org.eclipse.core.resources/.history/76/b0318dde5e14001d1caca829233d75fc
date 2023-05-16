@@ -1,0 +1,22 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// 캐스팅 : 참조변수가 객체를 참조하는 행위를 표현한 용어
+		
+		First f=new First();     //제대로된 캐스팅
+		Second s = new Second(); //제대로된 캐스팅
+		
+		//당연하게도 다른 class를 캐스팅하면 에러
+		//First obj=new Second();
+		
+		// 하지만, 만약 두 클래스가 상속관계라면..
+		// Second가 First를 상속받도록..
+		
+		
+		
+	}
+
+}

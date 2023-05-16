@@ -1,0 +1,13 @@
+
+//상속을 통해 Robot의 기능을 이미 보유한 클래스를 설계
+public class FlyRobot extends Robot{
+	
+	//이동, 공격 + 나는 기능
+	
+	//새로운 기능추가
+	void fly() {
+		System.out.println("오~~난다~~");
+	}
+	
+	
+}

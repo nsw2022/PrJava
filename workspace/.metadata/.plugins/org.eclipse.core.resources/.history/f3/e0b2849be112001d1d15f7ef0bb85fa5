@@ -1,0 +1,6 @@
+
+public class InitialTest {
+	//1. 기본값 초기화ㅑ - 0에 해당하는 값
+	int a;
+	
+}

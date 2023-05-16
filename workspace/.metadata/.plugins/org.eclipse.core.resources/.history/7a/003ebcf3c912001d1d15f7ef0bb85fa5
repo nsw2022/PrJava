@@ -1,0 +1,38 @@
+
+public class Caculator {
+
+	//기능들 - 메소드들..
+	
+	//더하기 기능
+	int add(int x, int y) {
+		int sum=x+y;
+		return sum;
+	}
+	
+	//빼기 기능
+	int subtract(int x,int y) {
+		return x-y;
+	}
+	
+	//곱셈 기능
+	int multiple(int x, int y) {
+		return x*y;
+	}
+	
+	
+	//나눗셈 기능
+	int divide(int x, int y) {
+		return x/y;
+	}
+	
+	//double형 사칙연산을 위한 기능들 - 메소드 정의들.. 추가정의
+	//기존에 있던 다른 메소드와 같은 이름의 메소드를 또 추가할 수 있음.
+	//단, 파라미터의 개수나 자료형이 달라야만 함.
+	//이런식으로 똑같은 일므의 함수가 여러개 있는 기술을 함수 Overloading(오버로딩)이라고 부름.
+	
+	double add(double x,double y) {
+		return x+y;
+	}
+	
+	
+}
