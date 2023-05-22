@@ -1,6 +1,10 @@
 import java.util.Scanner;
 public class String02 {
+<<<<<<< HEAD
 	public static void main(String[] args) {
+=======
+public static void main(String[] args) {
+>>>>>>> 9bc0f9aefa6ade40856742cbfa118c85b1fb8939
 		/*
 		 *  1. 문자열의 크기 5에서 1을 뺀 4가 i에 저장.
 
@@ -26,6 +30,9 @@ public class String02 {
 		for(i=str.length()-1;i>=0;i--) {
 			System.out.printf("%s",str.charAt(i));
 		}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9bc0f9aefa6ade40856742cbfa118c85b1fb8939
 	}
 }
