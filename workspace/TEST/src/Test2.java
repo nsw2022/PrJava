@@ -7,7 +7,6 @@ public class Test2 {
 
 		System.out.println("unload me를 치면 프로그램 종료");
 
-
 		while(true) {
 			try {
 				Scanner scan=new Scanner(System.in);
