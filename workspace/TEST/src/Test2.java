@@ -60,7 +60,6 @@ public class Test2 {
 						sum+=( (int)(data.charAt(i))-48)*check[i];
 					}
 
-
 					int su = 11 - sum % 11; //끝자리와 비교해줄 su
 
 
